@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     // 配置跨域
     server: {
       port: 8888,
-      host: "192.168.31.207",
+      // host: "192.168.31.207",
       proxy: {
         "/api": {
           target: config.VITE_TARGET,  // 会自动判断当前环境，对应上述三个文件中的target
